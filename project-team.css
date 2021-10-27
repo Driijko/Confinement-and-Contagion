@@ -99,7 +99,7 @@ h2 {
     padding-bottom: 10vh;
 }
 
-#myseum a {
+/* #myseum a {
     height: 40vh;
 }
 
@@ -112,6 +112,30 @@ h2 {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+} */
+
+.just-logo a {
+  height: 40vh;
+}
+
+.just-logo .logo-and-text {
+  width: 100%;
+}
+
+.just-logo .logo {
+  padding: 3vw;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+#venue p {
+  font-size: clamp(2rem, 0.6667rem + 2.0833vw, 4rem); 
+  text-align: center;
+}
+
+#venue .logo {
+  padding-bottom: 15vh;
 }
 
 .logo-and-text {
@@ -400,12 +424,8 @@ h2 {
         height: auto;
     }
 
-    #myseum .logo-and-text {
-        background-color: hsla(0, 0%, 0%, 0);
-    }
-
-    #myseum .logo {
-        height: 30vh;
+    #venue .logo {
+      padding-bottom: 0;
     }
 
     .logo {
