@@ -19,7 +19,7 @@ main {
 h2 {
     font-family: "Roboto Condensed";
     position: absolute;
-    top: 15vh;
+    top: 8vh;
     left: 15vw;
     font-size: 3vw;
     font-size: clamp(1.3rem, 0.5600rem + 3.7000vw, 5rem);
@@ -27,7 +27,7 @@ h2 {
 
 p {
     position: absolute;
-    top: 27vh;
+    top: 20vh;
     left: 40vw;
 
     font-size: 1vw;
@@ -36,6 +36,10 @@ p {
     line-height: 2.8ex;
 
     color: hsl(35, 100%, 90%);
+}
+
+i {
+  font-style: italic;
 }
 
 @media screen and (max-width: 1024px) {
