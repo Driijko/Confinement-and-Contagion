@@ -1,4 +1,9 @@
 #updating {
+  padding: 3vw;
+  font-size: clamp(2rem, 0.6364rem + 6.8182vw, 5rem);
+}
+#back-link {
+  padding: 3vw;
   font-size: clamp(2rem, 0.6364rem + 6.8182vw, 5rem);
 }
 #page-nav {
