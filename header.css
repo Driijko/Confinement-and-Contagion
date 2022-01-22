@@ -1,12 +1,11 @@
 header {
     height: 20vh;
     position: relative;
-    /* justify-content: flex-end; */
 }
 
 header h1 {
     position: relative;
-    top: 2%;
+    top: -5%;
 }
 
 nav {
@@ -40,6 +39,10 @@ nav a:hover, nav a:focus {
 }
 
 @media screen and (max-width: 1024px) {
+    header h1 {
+      top: 2%;
+    }
+    
     nav {
         margin-top: 5%;
     }
