@@ -38,8 +38,7 @@ nav ul{
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    height: 30vh;
-    /* height: 50vh; */
+    height: 40vh;
     font-family: "Roboto Condensed";
 }
 
@@ -108,6 +107,10 @@ footer {
     #background-pic {
         background-size: cover;
         height: 55vh;
+    }
+
+    nav ul {
+      height: 30vh;
     }
 
     nav a {
