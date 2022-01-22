@@ -1,27 +1,30 @@
 header {
     height: 20vh;
-    justify-content: flex-end;
+    position: relative;
+    /* justify-content: flex-end; */
 }
 
 header h1 {
     position: relative;
-    top: 2vh;
+    top: 2%;
 }
 
 nav {
     width: 100%;
     font-family: "Roboto Condensed";
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items:flex-end;
+    align-items: center;
 }
 
 nav a {
-    width: 30vw;
     display: block;
     box-sizing: border-box;
     border: 0.5vh solid hsla(35, 100%, 90%, 0);
@@ -29,13 +32,10 @@ nav a {
     border-radius: 50px 50px 0px 0px;
     transition: border 2s, font-size 2s;
 
-    font-size: 1vw;
     font-size: clamp(0.7rem, 0.5143rem + 0.9286vw, 2rem);
 }
 
 nav a:hover, nav a:focus {
-    /* border: 0.5vh solid hsl(35, 100%, 90%); */
-    font-size: 2vw;
     font-size: clamp(1.6rem, 1.1909rem + 2.0455vw, 2.5rem);
 }
 

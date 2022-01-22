@@ -1,0 +1,7 @@
+header {
+  background-image: linear-gradient(
+    hsl(120, 30%, 70%),
+    hsl(45, 80%, 50%),
+    hsl(120, 30%, 70%)
+  );
+}
