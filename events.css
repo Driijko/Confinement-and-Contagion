@@ -109,6 +109,10 @@ h3 {
   font-size: calc(100vw / 25);
 }
 
+.event-description p {
+  padding-bottom: 5%;
+}
+
 /* EVENT 1 ///////////////////////////////////// */
 #event1 ul {
   list-style: outside disc;
@@ -120,9 +124,7 @@ h3 {
 }
 
 /* EVENT 2 ///////////////////////////////////////// */
-#event2 .event-description p {
-  padding-bottom: 5%;
-}
+
 
 @media screen and (min-width: 600px) {
   .phone {
